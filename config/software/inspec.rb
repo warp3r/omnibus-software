@@ -26,7 +26,7 @@ dependency "bundler"
 build do
   env = with_standard_compiler_flags(with_embedded_path)
 
-  bundle "install --with test integration --without tools maintenance", env: env
+  bundle "install --without simulator test integration tools maintenance deploy", env: env
 
   gem "build inspec.gemspec", env: env
   gem "install inspec-*.gem" \
