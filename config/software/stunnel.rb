@@ -39,10 +39,10 @@ build do
   env = with_standard_compiler_flags(with_embedded_path)
 
   patch source: "stunnel-on-windows.patch", plevel: 1, env: env if windows?
+  env["CONFIG_SHELL"] = "/usr/bin/bash" if windows?
 
   configure_args = [
     "--with-ssl=#{install_dir}/embedded",
-    "--prefix=#{install_dir}/embedded",
   ]
   configure_args << "--enable-fips" if fips_mode?
 
