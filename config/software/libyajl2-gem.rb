@@ -24,6 +24,8 @@ license "Apache-2.0"
 license_file "LICENSE"
 
 dependency "ruby"
+dependency "rubygems"
+dependency "bundler"
 
 build do
   env = with_embedded_path

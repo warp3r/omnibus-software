@@ -24,6 +24,7 @@ name "google-protobuf"
 default_version "v3.5.2"
 
 dependency "ruby"
+dependency "rubygems"
 
 source git: "https://github.com/google/protobuf.git"
 

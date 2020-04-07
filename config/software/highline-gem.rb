@@ -25,6 +25,7 @@ license_file "http://www.ruby-lang.org/en/LICENSE.txt"
 skip_transitive_dependency_licensing true
 
 dependency "ruby"
+dependency "rubygems"
 
 build do
   env = with_standard_compiler_flags(with_embedded_path)
