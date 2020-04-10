@@ -34,9 +34,10 @@ version "4.4.0" do
   source md5: "a892852927b12ed291b435c72c085834"
 end
 
-source url: "http://www.gecode.org/download/gecode-#{version}.tar.gz"
+source url: "https://github.com/Gecode/gecode/archive/release-#{version}.tar.gz"
 
-relative_path "gecode-#{version}"
+relative_path "release-#{version}"
+
 
 build do
   env = with_standard_compiler_flags(with_embedded_path)
