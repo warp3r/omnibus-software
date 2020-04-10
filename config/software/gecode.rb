@@ -22,7 +22,7 @@ license_file "LICENSE"
 skip_transitive_dependency_licensing true
 
 version "3.7.3" do
-  source md5: "7a5cb9945e0bb48f222992f2106130ac"
+  source md5: "a49ddf3f1696e48c978b206c98bf9d9c"
 end
 
 version "3.7.1" do
@@ -36,7 +36,7 @@ end
 
 source url: "https://github.com/Gecode/gecode/archive/release-#{version}.tar.gz"
 
-relative_path "release-#{version}"
+relative_path "gecode-#{version}"
 
 
 build do
