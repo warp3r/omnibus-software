@@ -43,7 +43,7 @@ license_cookie = "gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-s
 
 # This is the final release of the Oracle Java under the 'Oracle Binary Code License Agreement'
 version "8u202" do
-  source url: "https://owncloud.teradisk.com/index.php/s/aB7gF7IxkmB5nWT/download"
+  source url: "https://owncloud.teradisk.com/index.php/s/aB7gF7IxkmB5nWT/download",
          sha256: "61292e9d9ef84d9702f0e30f57b208e8fbd9a272d87cd530aece4f5213c98e4e",
          cookie: license_cookie,
          warning: license_warning,
