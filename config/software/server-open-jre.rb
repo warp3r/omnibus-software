@@ -45,7 +45,7 @@ end
 
 version "11.0.4+11" do
   source url: "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.4%2B11/OpenJDK11U-jre_x64_linux_hotspot_11.0.4_11.tar.gz",
-         sha256: "70d2cc675155476f1d8516a7ae6729d44681e4fad5a6fc8dfa65cab36a67b7e0",
+         md5: "cba518e64b4306365ff41b1dce9e0538",
          warning: license_warning,
          unsafe: true
 end
